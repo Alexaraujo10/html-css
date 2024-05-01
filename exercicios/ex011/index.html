@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir o site em dispositivos diferentes.</p>
+
+    <picture>
+         
+       
+        <source media="(max-width: 700px)" srcset="Imagens/Imagens M.png" type="Image/">  
+ <img src="Imagens/Imagens G.png" alt="Imagem Flexível">
+
+    </picture>
+
+    <h1>reproduzindo audio </h1>
+       <p>Vamos colocar um audio para reproduzir em html5</p>
+     <audio preload="auto" autoplay controls loop>
+        <source src="midia/head-shake-1.mp3" type="audio/mpeg"> 
+        <source src="midia/head-shake-1.ogg" type="audio/ogg">
+        <source  src="midia/head-shake-1.wav" type="audio/wav">
+        <p><a href="midia/head-shake-1.mp3">Infelizmente seu navegador nao tem suporte para reproduzir o audio</a></p>
+        
+
+     </audio>
+
+
+
+    
+</body>
+</html>
